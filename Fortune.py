@@ -23,3 +23,4 @@ def consult_fotune(answerNumber):
 r = random.randint(1,9)
 fortune = consult_fotune(r)
 print(fortune)
+
