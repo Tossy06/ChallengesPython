@@ -20,6 +20,6 @@ def consult_fotune(answerNumber):
     elif answerNumber == 9:
            return 'Very doubtful'
        
-r = random.randint(1,2)
+r = random.randint(1,9)
 fortune = consult_fotune(r)
 print(fortune)
