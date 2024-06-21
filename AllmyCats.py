@@ -7,7 +7,7 @@ while True:
     if name == "":
         break
     catName = catName + [name]
+    
 print("The cat name are: ")
-
 for name in catName:
     print('  '+  name)
